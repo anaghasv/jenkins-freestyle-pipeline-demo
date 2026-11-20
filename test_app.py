@@ -5,7 +5,7 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Flask Application is Running Successfully" in response.data
+    assert b"Jenkins Automatic Build is Working" in response.data
 
 def test_health():
     client = app.test_client()
