@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return  "Hello! Jenkins Automatic Build is Working."
+    return  "Hello!."
 
 @app.route("/health")
 def health():
